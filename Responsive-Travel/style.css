@@ -1,0 +1,217 @@
+/* Main Content */
+
+body {
+  background-image: url('background_inverness.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font-family: 'courier new', serif;
+  color: #003300;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  background-color: #e6f2ff;
+  padding: 2em;
+  border-radius: 3em;
+}
+
+h1 {
+  font-weight: bolder;
+  text-shadow: 2px 2px 5px green;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bolder;
+  text-shadow: 1.5px 1.5px 5px green;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+img {
+  border-radius: 2em;
+  width: 100%;
+}
+
+h3 {
+  position: absolute;
+  padding: 1%;
+  background-color: black;
+  border-radius: 3em;
+  color: white;
+  background-size: inherit;
+}
+
+h4 {
+  padding: 1%;
+  background-color: black;
+  border-radius: 3em;
+  color: white;
+  width: 30%;
+  float: left;
+}
+
+.img_2 {
+  width: 30%;
+  float: right;
+}
+
+.paragraph_1 {
+  width: 30%;
+  font-size: 11px;
+  float: left;
+  padding: 1em;
+}
+
+.col6 {
+  clear: both;
+}
+
+.col5, .col6 {
+  position: relative;
+  top: 5px;
+  bottom: 5px;
+  padding-bottom: 30%;
+  display: inline;
+}
+
+h6 {
+  text-align: center;
+  font-size: 22px;
+  clear: left;
+  display: block;
+}
+
+h5 {
+  position: relative;
+  padding: 1%;
+  background-color: black;
+  border-radius: 3em;
+  color: white;
+  width: 30%;
+  font-size: 18px;
+  float: right;
+  display: inline-block;
+}
+
+.img_3, .paragraph_2 {
+  display: none;
+}
+
+.facts, .reference {
+  display: none;
+}
+
+footer::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Break Point 1 */
+
+@media screen and (min-width: 490px) {
+
+  .col7, .col8, .col9 {
+    width: 30%;
+    font-size: 12px;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .paragraph_1, .img_2 {
+    width: 45%;
+    font-size: 15px;
+  }
+
+  .img_3, .paragraph_2 {
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+    padding-bottom: 30%;
+    display: inline;
+  }
+
+  h4, h5 {
+    width: 100%;
+  }
+
+  h6 {
+    padding-top: 20px;
+    clear: both;
+  }
+
+  .facts, .reference {
+    display: block;
+    position: relative;
+    width: 100%;
+    clear: both;
+  }
+
+  .reference {
+    font-size: 10px;
+  }
+}
+
+/* Break Point 2 */
+
+@media screen and (min-width: 800px) {
+    .paragraph_1, .img_2 {
+      width: 100%;
+    }
+
+    h4 {
+      position: relative;
+      float: none;
+      clear: both;
+      width: auto;
+      background-size: inherit;
+    }
+
+    .col7, .col8, .col9 {
+      width: 30%;
+      font-size: 15px;
+    }
+
+}
+
+/* Break Point 3 */
+
+@media screen and (min-width: 1000px) {
+    .col1, .col2, .col3, .col4 {
+      width: 45%;
+      height: 400px;
+    }
+
+    .col7, .col8, .col9 {
+      width: 30%;
+      padding-left: 10px;
+    }
+
+    .col1, .col2, .col3, .col4 {
+      float: left;
+      padding-left: 20px;
+    }
+
+    .col5, .col6 {
+      font-size: 22px;
+      width: 45%;
+      display: block;
+      float: left;
+      padding-left: 20px;
+      padding-bottom: 0;
+    }
+
+    .col6 {
+      clear: none;
+    }
+
+}

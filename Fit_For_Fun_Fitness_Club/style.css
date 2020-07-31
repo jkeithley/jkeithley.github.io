@@ -1,0 +1,106 @@
+/*
+  Name: Jessica Webb
+  Date: June 28, 2020
+  Assignment name: Registration Form
+  File Name: index.html
+  */
+  body {
+  background-image:url(Fitness_club.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: blue;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 2px 2px black;
+}
+
+.gallery_1 {
+  margin: 5px;
+  border: 3px solid #0000ff;
+  float: right;
+  width: 300px;
+  height: 250px;
+}
+
+.gallery_1 img {
+  width: 100%;
+  height: 80%;
+}
+.gallery_2 {
+  margin: 5px;
+  border: 3px solid #0000ff;
+  float: right;
+  width: 300px;
+  height: 250px;
+}
+
+.gallery_2 img {
+  width: 100%;
+  height: 80%;
+}
+.description {
+  padding: 10px;
+  text-align: center;
+  color: blue;
+  background-color: black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.container {
+  margin: auto;
+  width: 70%;
+  background-color: blue;
+  color: white;
+  padding: 25px;
+  border-radius: 5px;
+}
+textarea {
+  width: 50%;
+  height: 80px;
+}
+
+table {
+  margin: auto;
+  width: 50%;
+  border-collapse: collapse;
+  background-color: black;
+}
+
+table, th, td {
+  border:5px blue solid;
+  opacity: .85;
+}
+
+th, td {
+  padding:10px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  font-size: 20px;
+}

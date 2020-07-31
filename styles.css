@@ -53,3 +53,8 @@ table {
   text-align: center;
   background-color: grey;
 }
+
+.card {
+  background-color: coral;
+  color: black;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Information</title>
+    <!--
+    Name: Jessica Webb
+    Date: June 28, 2020
+    Assignment name: Fit For Fun Fitness Club
+    File Name: info.html
+    -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="sidenav">
+      <a href="index.html">Home</a>
+      <a href="info.html">Information</a>
+      <a href="classes.html">Classes</a>
+    </nav>
+
+    <h2>Information Request Form</h2>
+<div class="container">
+  <form method="get" action="thankyou.html">
+
+
+    <fieldset>
+        <legend>
+          Contact Information
+        </legend>
+        <label for="fname">
+          Name:
+          <input autofocus type="text" name="fname" id="fname" required placeholder="First Name" />
+        </label>
+        <label for="lname">
+          Last Name:
+          <input type="text" name="lname" id="lname" required placeholder="Last Name" />
+        </label>
+        <label for="email">
+          Email:
+          <input type="email" name="email" id="email" required placeholder="Email" />
+        </label>
+        <label for="tel">
+          Phone:
+          <input type="tel" name="tel" id="tel" required placeholder="(###) ###-####" />
+        </label><br>
+        <label for="waytoreach">
+          Best Way To Reach You:
+          <select id="waytoreach" name="waytoreach">
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+              <option value="owl">Owl</option>
+              <option value="text">Text</option>
+            </select>
+        </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        Classes You Are Interested In:
+      </legend>
+        <input type="checkbox" id="cross_training" name="cross_training" value="cross_training">
+          <label for="cross_training">Cross Training</label>
+        <input type="checkbox" id="sprint" name="sprint" value="sprint">
+          <label for="sprint">Sprint</label>
+        <input type="checkbox" id="spin" name="spin" value="spin">
+          <label for="spin">Spin</label>
+        <input type="checkbox" id="bodypump" name="bodypump" value="bodypump">
+          <label for="bodypump">BodyPump</label>
+        <input type="checkbox" id="bodycombat" name="bodycombat" value="bodycombat">
+          <label for="bodycombat">BodyCombat</label><br>
+        <input type="checkbox" id="step" name="stepinterval" value="stepinterval">
+          <label for="step">Step Interval</label>
+        <input type="checkbox" id="advanced" name="advancedcrosstraining" value="advancedcrosstraining">
+          <label for="advanced">Advanced Cross Training</label>
+        <input type="checkbox" id="mixxxed" name="mixxxedfit" value="mixxxedfit">
+          <label for="mixxxed">MixxxedFIT</label>
+        <input type="checkbox" id="zumba" name="zumba" value="zumba">
+          <label for="zumba">Zumba</label><br>
+
+        <input type="radio" id="am" name=ampm value="ampm">
+          <label for="am">AM</label>
+        <input type="radio" id="pm" name=ampm value="ampm">
+          <label for="pm">PM</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        Additional Info
+      </legend>
+        <textarea name="additional" placeholder="Any additional info"></textarea>
+    </fieldset>
+
+        <input class="submit" type="submit" value="Submit"/>
+    </form>
+    </div>
+  </body>
+</html>
