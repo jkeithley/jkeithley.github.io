@@ -37,6 +37,7 @@ table {
   color: black;
   border-style: solid;
   border-color: black;
+  width: 100%;
 }
 
 .table {
@@ -52,6 +53,7 @@ table {
 .semester {
   text-align: center;
   background-color: grey;
+  color: black;
 }
 
 .card {
